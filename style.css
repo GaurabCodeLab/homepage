@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: aliceblue;  
+}
+
+/* Header Design */
+header{
+    background-color: rgb(134, 167, 126);
+}
+
+.logo{
+    height: 2.5rem;
+    width: 2.7rem;
+    margin: 0.5rem 1.3rem 0rem 0.8rem;
+    float: left;  
+    border-radius: 3rem;
+}
+
+.header-link{
+    list-style-type: none;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link li a{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1.2rem;
+}
+
+.header-link li a:hover{
+    background-color: rgb(31, 31, 206);
+    color: white
+}
+
+/* Footer Design */
+footer{
+    background-color: rgb(238, 220, 194);
+}
+
+.footer-link{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(130, 130, 231);
+}
+
+.footer-link li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* Main Design */
+main{
+    display: flex;
+}
+
+.sub-section{
+    border: 2px solid rgb(163, 137, 212);
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.sub-section-heading{
+    color: rgb(8, 30, 226);
+    margin: 0.1rem 0 0 0.4rem;
+}
+
+.sub-section p{
+    color: rgb(231, 137, 13);
+    margin-left: 0.5rem;
+}
+
+.main-section-heading{
+    background-color: black;
+    color: red;
+    border: 4px solid green;
+    border-radius: 2rem;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+    padding-left: 0.7rem;
+}
+
+button{
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: aqua;
+    font-weight: bold;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
